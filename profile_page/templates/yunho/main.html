@@ -31,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-5 mb-2 mb-lg-0 navs">
                                 <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="./">Home</a></li>
-                                <!--profile page needed-->
+                                <li class="nav-item"><a class="nav-link active text-white" href="./profile">Profile</a></li>
                                 <li class="nav-item"><a class="nav-link active text-white" href="#!">Interest</a></li>
                         </ul>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navs">
@@ -43,7 +43,28 @@
                 </div>
             </nav>
             
-            <!--Modal needed-->
+            <!-- Modal -->
+            
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="loginModalLabel">SOCIAL LOGIN</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-evenly">
+                            <a href="http://127.0.0.1:8000/yunho/login/google/" target="_blank"><button type="button" class="btn btn-outline-dark btn-block btn-sm"><img src="{% static 'yunho/images/google.jpg' %}"/> Log in with Google</button></a>
+                            <a href="http://127.0.0.1:8000/yunho/login/github/" target="_blank"><button type="button" class="btn btn-outline-dark btn-block btn-sm"><i class="fa-brands fa-github icon-github"></i> Log in with Github</button></a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </header>
         <!-- Footer-->
         <footer class="py-3 bg-dark">
             <p class="m-0 text-center text-white">Copyright &copy; Choi's Website 2023</p>
