@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+#logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color : palegreen;
+    padding: 0px;
+}
+
+header {
+    height: 8vh;
+}
+
+.navs {
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.content-section {
+    height: 84vh;
+}
+
+body {
+    background-color: #808080;
+}
+
+footer {
+    height: 8vh;
+}
+
+.bg {
+    background-image : url('https://www.dankook.ac.kr/ko/widget/web/kor/-576?p_p_id=Bbs_WAR_bbsportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_cacheability=cacheLevelPage&_Bbs_WAR_bbsportlet_extFileId=35355');
+    background-size : cover;
+    background-position : center center;
+    width : 100%;
+    height : 100%;
+}
+
+.icon-github {
+    font-size: 20px;
+}
+
+#social-icon {
+    font-size: 25px;
+}
+
+.underline-none {
+    text-decoration: none;
+}
+
+
+
+
+
