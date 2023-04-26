@@ -37,7 +37,7 @@ footer {
 }
 
 .bg {
-    background-image : url('https://www.dankook.ac.kr/ko/widget/web/kor/-576?p_p_id=Bbs_WAR_bbsportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_cacheability=cacheLevelPage&_Bbs_WAR_bbsportlet_extFileId=35355');
+    background-image : url('../images/dku_image.jpeg');
     background-size : cover;
     background-position : center center;
     width : 100%;

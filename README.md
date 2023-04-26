@@ -6,6 +6,6 @@ Django Version: 4.1
 
 ### Document  
 Start Date: 2023-04-25  
-Description: generate basic project file  
+Description: generate basic project file
 
 
