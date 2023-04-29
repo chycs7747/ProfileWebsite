@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 #logo {
     font-family: 'Kaushan Script', cursive;
@@ -28,6 +32,14 @@ body {
     background-color: #808080;
 }
 
+.content-section {
+    height: 84vh;
+}
+
+footer {
+    height: 8vh;
+}
+
 .bg {
     background-image : url('../images/dku_image.jpeg');
     background-size : cover;
@@ -39,4 +51,28 @@ body {
 
 .icon-github {
     font-size: 20px;
+}
+
+.content-font {
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+
+.motto-font-1 {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 36px;
+}
+
+.motto-font-2 {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 26px;
+}
+
+.motto-font-3 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 26px;
+}
+
+.content-color {
+    background: linear-gradient(#FFFFFF,#DCDCDC, 	#C0C0C0);
 }
