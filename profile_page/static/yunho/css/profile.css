@@ -1,52 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Gamja+Flower&family=Yeon+Sung&family=La+Belle+Aurore&display=swap');
 
-#logo {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 30px;
-    color : palegreen;
-    padding: 0px;
-}
-
-header {
-    height: 8vh;
-}
-
-.navs {
-    font-family: 'Lilita One', cursive;
-    font-size: 20px;
-}
-
-
-@media (min-width: 1200px) {
-    .container{
-        max-width: 1200px;
-    }
-}
-
-body {
-    background-color: #808080;
-}
-
-.content-section {
-    height: 84vh;
-}
-
-footer {
-    height: 8vh;
-}
-
-.bg {
-    background-image : url('../images/dku_image.jpeg');
-    background-size : cover;
-    background-position : center center;
-    width : 100%;
-    height : 100%;
-}
 
 
 .icon-github {
@@ -54,8 +7,8 @@ footer {
 }
 
 .content-font {
-    font-family: 'Shrikhand', cursive;
-    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 37px;
 }
 
 .motto-font-1 {

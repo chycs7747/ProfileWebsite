@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        {% include "head.html" %}
+        {% block script %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}?ver={% now 'U' %}">
+        {% endblock %}
+        {% block css %}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <!-- Responsive navbar-->
+            {% include "navbar.html" %}         
+            <!-- Modal -->
+            {% include "loginmodal.html" %}
+        </header>
+
+        <section class="content-section">
+        {% block content %}
+        {% endblock %}
+        </section>       
+    
+        <footer class="py-3 bg-dark">
+            {% include "footer.html" %}
+        </footer>
+    </body>
+</html>
+
+

@@ -1,98 +1,30 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Show profile" />
-        <meta name="author" content="ChoiYunHo" />
-        
-        {% load static %}
-        <!-- Sequence is important to override -->
-        <link rel="stylesheet" type="text/css" href="{% static 'yunho/css/bootstrap.min.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'yunho/css/main.css' %}?ver={% now 'U' %}">
-        <script src="https://kit.fontawesome.com/f28dbb8460.js" crossorigin="anonymous"></script>
-        
-        
-        
-        <title>The Best CYH</title>
-        <!-- Favicon-->
-        <!-- Core theme CSS (includes Bootstrap)-->
-    </head>
-    <body>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-        
-        <header>
-            <!-- Responsive navbar-->
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container">
-                    <a id="logo" class="navbar-brand" href="#">yunho</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-5 mb-2 mb-lg-0 navs">
-                                <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="./">Home</a></li>
-                                <li class="nav-item"><a class="nav-link active text-white" href="./profile">Profile</a></li>
-                                <li class="nav-item"><a class="nav-link active text-white" href="#!">Interest</a></li>
-                        </ul>
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navs">
-                            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                &nbsp;&nbsp;Login&nbsp;&nbsp;
-                            </button>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            
-            <!-- Modal -->
-            
-            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="loginModalLabel">SOCIAL LOGIN</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="d-flex justify-content-evenly">
-                            <a href="http://127.0.0.1:8000/yunho/login/google/" target="_blank"><button type="button" class="btn btn-outline-dark btn-block btn-sm"><img src="{% static 'yunho/images/google.jpg' %}"/> Log in with Google</button></a>
-                            <a href="http://127.0.0.1:8000/yunho/login/github/" target="_blank"><button type="button" class="btn btn-outline-dark btn-block btn-sm"><i class="fa-brands fa-github icon-github"></i> Log in with Github</button></a>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'yunho/css/main.css' %}?ver={% now 'U' %}">
+{% endblock %}
+{% block content %}
+<div class="container px-0 bg">
+    <div class="text-center pt-5">
+        <img class="img-fluid rounded-circle mt-4" src="{% static 'yunho/images/logo.png' %}" style="width:18%;height:18%;"alt="..." />
+        <!--fs: font size-->
+        <p class="text-white fs-2 fw-bolder"><br>Welcome, this is my profile page</p>
+        <div class="description">
+            <p class="text-grey fw-bolder">you can learn more about my work, from this website!</p>
+        </div>
 
-        <section class="content-section">
-            <div class="container px-0 bg">
-                <div class="text-center py-5">
-                    <img class="img-fluid rounded-circle mt-4 mb-3" src="{% static 'yunho/images/cyhyg.jpg' %}" alt="..." />
-                    <!--fs: font size-->
-                    <p class="text-white fs-2 fw-bolder"><br>Hello, Welcome to my website<br></p>
-                    <p class="text-white fs-3 fw-bolder">Profile of CYH</p>
-
-                    <a href="./profile">
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">
-                            &nbsp;&nbsp;View Profile&nbsp;&nbsp;
-                        </button>
-                    </a>
-                </div>
-                <div class="d-flex mt-2 justify-content-evenly">
-                    <a class="text-white underline-none" href="https://github.com/chycs7747" target="_blank"><i id="social-icon" class="text-white fa-brands fa-github"></i>&nbsp;Github</a>
-                    <a class="text-white underline-none" href="https://instagram.com/yunho_choi_?igshid=YmMyMTA2M2Y=" target="_blank"><img src="{% static 'yunho/images/instagram.jpg' %}"/>&nbsp;Instagram</a>
-                    <a class="text-white underline-none" href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank"><img src="{% static 'yunho/images/notion_icon_small.png' %}"/>&nbsp;Notion</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer-->
-        <footer class="py-3 bg-dark">
-            <p class="m-0 text-center text-white">Copyright &copy; Choi's Website 2023</p>
-        </footer>
-    </body>
-</html>
-
+        <a href="{% url 'yunho:profile_index' %}">
+            <br>
+            <button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+                &nbsp;&nbsp;View Profile&nbsp;&nbsp;
+            </button>
+        </a>
+    </div>
+    <div class="d-flex mt-5 justify-content-evenly">
+        <a class="text-white underline-none" href="https://github.com/chycs7747" target="_blank"><i id="social-icon" class="text-white fa-brands fa-github"></i>&nbsp;Github</a>
+        <a class="text-white underline-none" href="https://instagram.com/yunho_choi_?igshid=YmMyMTA2M2Y=" target="_blank"><img src="{% static 'yunho/images/instagram.jpg' %}"/>&nbsp;Instagram</a>
+        <a class="text-white underline-none" href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank"><img src="{% static 'yunho/images/notion_icon_small.png' %}"/>&nbsp;Notion</a>
+    </div>
+</div>
+{% endblock %}
 
