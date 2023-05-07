@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@900&display=swap');
 
 header {
-    height: 8vh;
+    height: 62px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -24,7 +34,7 @@ header {
 }
 
 .content-section {
-    height: 84vh;
+    min-height: calc(100vh - 122px); /* "최소"높이를 90vh로 둠으로써 90vh보다 content-section의 height가 길어질 때만 전체 height가 100vh가 넘게되어 스크롤이 생김 */
 }
 
 body {
@@ -32,5 +42,5 @@ body {
 }
 
 footer {
-    height: 8vh;
+    height: 60px;
 }

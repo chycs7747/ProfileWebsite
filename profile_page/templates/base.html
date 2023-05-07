@@ -3,10 +3,10 @@
 <html lang="ko">
     <head>
         {% include "head.html" %}
-        {% block script %}
         <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}?ver={% now 'U' %}">
-        {% endblock %}
         {% block css %}
+        {% endblock %}
+        {% block script %}
         {% endblock %}
     </head>
     <body>
@@ -17,12 +17,12 @@
             {% include "loginmodal.html" %}
         </header>
 
-        <section class="content-section">
+        <section class="content-section">  
         {% block content %}
         {% endblock %}
         </section>       
     
-        <footer class="py-3 bg-dark">
+        <footer class="bg-dark d-flex justify-content-center align-items-center">
             {% include "footer.html" %}
         </footer>
     </body>

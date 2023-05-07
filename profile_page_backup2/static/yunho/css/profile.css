@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Gamja+Flower&family=Yeon+Sung&family=La+Belle+Aurore&display=swap');
+
+
+
+.icon-github {
+    font-size: 20px;
+}
+
+.content-font {
+    font-family: 'Russo One', sans-serif;
+    font-size: 37px;
+}
+
+.motto-font-1 {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 36px;
+}
+
+.motto-font-2 {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 26px;
+}
+
+.motto-font-3 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 26px;
+}
+
+.content-color {
+    background: linear-gradient(#FFFFFF,#DCDCDC, 	#C0C0C0);
+}

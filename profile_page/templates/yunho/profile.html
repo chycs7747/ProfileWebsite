@@ -63,7 +63,7 @@
               <div class="card-body">
                 <h5 class="card-title">Github</h5>
                 <p class="card-text">chycs7747@github.com<br>프로젝트에 대한 정보를 확인</p>
-                <a href="https://github.com/chycs7747" target="_blank" class="btn btn-outline-dark"><img src="{% static 'yunho/images/external_link_icon.jpg' %}" style="width: 22px; height: 22px;">Goto Yunho Github</a>
+                  <a href="https://github.com/chycs7747" target="_blank" class="btn btn-outline-dark"><img src="{% static 'yunho/images/external_link_icon.jpg' %}" style="width: 22px; height: 22px;">Goto Yunho Github</a>
               </div>
             </div>
           </div>
@@ -78,7 +78,11 @@
               <div class="card-body">
                 <h5 class="card-title">Notion</h5>
                 <p class="card-text">공부를 정리하고, 자신의 목표와 꿈을 정리하는 공간입니다.</p>
-                <a href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank" class="btn btn-outline-dark"><img src="{% static 'yunho/images/external_link_icon.jpg' %}" style="width: 22px; height: 22px;">Goto Yunho Notion</a>
+                  {% if username %}
+                  <a href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank" class="btn btn-outline-dark"><img src="{% static 'yunho/images/external_link_icon.jpg' %}" style="width: 22px; height: 22px;">Goto Yunho Notion</a>
+                  {% else %}
+                  <a href="#" onclick="alert('로그인 후 이용해주세요.')" class="btn btn-outline-dark"><img src="{% static 'yunho/images/external_link_icon.jpg' %}" style="width: 22px; height: 22px;">Goto Yunho Notion</a>
+                  {% endif %}
               </div>
             </div>
           </div>

@@ -32,6 +32,9 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'yunho.apps.YunhoConfig',
+    'github_oauth.apps.GithubOauthConfig',
+    'google_oauth.apps.GoogleOauthConfig',
+    'user.apps.UserConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,7 +80,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': str(BASE_DIR / 'db.sqlite3'),
     }
 }
 
@@ -106,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul' #default: 'UTC'
 
 USE_I18N = True
 
@@ -125,3 +128,37 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#Google Oauth Section
+GOOGLE_CLIENT_ID = '1008108087440-k91al7rsvpvoenjb8vt5pjqkuke9k9u9.apps.googleusercontent.com'
+GOOGLE_CLIENT_SECRET_PASSWORD = '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'
+GOOGLE_TOKEN_API = 'https://oauth2.googleapis.com/token'
+GOOGLE_ENDPOINT = 'https://accounts.google.com/o/oauth2/v2/auth' #인증서버
+GOOGLE_SCOPE = 'https://www.googleapis.com/auth/userinfo.email ' + 'https://www.googleapis.com/auth/userinfo.profile ' + 'openid'
+GOOGLE_REDIRECT_URI = 'http://127.0.0.1:8000/yunho/login/google/callback'
+GOOGLE_REDIRECT_URI_GOORM = 'https://opensource-egynk.run.goorm.site/yunho/login/google/callback'
+
+#Github Oauth Section
+GITHUB_CLIENT_ID = '71d3e522408753248fd2'
+GITHUB_CLIENT_SECRET_PASSWORD = '9ceab046c5a0a48085ecee150e7c06ac941e936a'
+GITHUB_TOKEN_API = 'https://github.com/login/oauth/access_token'
+GITHUB_ENDPOINT = 'https://github.com/login/oauth/authorize'
+GITHUB_SCOPE = 'repo ' + 'user'
+GITHUB_REDIRECT_URI = 'http://127.0.0.1:8000/yunho/login/github/callback'
+GITHUB_REDIRECT_URI_GOORM = 'https://opensource-egynk.run.goorm.site/yunho/login/github/callback'
+
+#session Section
+SESSION_COOKIE_AGE = 60 #세션 만료 시간
+SESSION_SAVE_EVERY_REQUEST = True #요청시 세션 만료 시간 초기화
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True # 브라우저 닫으면 session 없애기
+# SESSION_SAVE_EVERY_REQUEST = True # update되면 session바로 반영
+
+
+#custom user model Section
+AUTH_USER_MODEL = 'user.User'
+
+#Authentication backends
+AUTHENTICATION_BACKENDS = [
+        'django.contrib.auth.backends.ModelBackend',
+]

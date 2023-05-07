@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@900&display=swap');
+
+header {
+    height: 8vh;
+}
+
+#logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color : palegreen;
+    padding: 0px;
+}
+
+.navs {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.content-section {
+    height: 84vh;
+}
+
+body {
+    background-color: #808080;
+}
+
+footer {
+    height: 8vh;
+}

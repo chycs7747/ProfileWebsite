@@ -15,15 +15,20 @@
 
         <a href="{% url 'yunho:profile_index' %}">
             <br>
-            <button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <button type="button" class="btn btn-outline-light mt-3">
                 &nbsp;&nbsp;View Profile&nbsp;&nbsp;
             </button>
         </a>
     </div>
     <div class="d-flex mt-5 justify-content-evenly">
         <a class="text-white underline-none" href="https://github.com/chycs7747" target="_blank"><i id="social-icon" class="text-white fa-brands fa-github"></i>&nbsp;Github</a>
-        <a class="text-white underline-none" href="https://instagram.com/yunho_choi_?igshid=YmMyMTA2M2Y=" target="_blank"><img src="{% static 'yunho/images/instagram.jpg' %}"/>&nbsp;Instagram</a>
-        <a class="text-white underline-none" href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank"><img src="{% static 'yunho/images/notion_icon_small.png' %}"/>&nbsp;Notion</a>
+        {% if username %}
+            <a class="text-white underline-none" href="https://instagram.com/yunho_choi_?igshid=YmMyMTA2M2Y=" target="_blank"><img src="{% static 'yunho/images/instagram.jpg' %}"/>&nbsp;Instagram</a>
+            <a class="text-white underline-none" href="https://fourth-climb-da5.notion.site/4056b039f0984b32a980381553d8d5a8" target="_blank"><img src="{% static 'yunho/images/notion_icon_small.png' %}"/>&nbsp;Notion</a>
+        {% else %}
+            <a class="text-white underline-none" href="#" onclick="alert('로그인 후 이용해주세요.')"><img src="{% static 'yunho/images/instagram.jpg' %}"/>&nbsp;Instagram</a>
+            <a class="text-white underline-none" href="#" onclick="alert('로그인 후 이용해주세요.')"><img src="{% static 'yunho/images/notion_icon_small.png' %}"/>&nbsp;Notion</a>
+    {% endif %}
     </div>
 </div>
 {% endblock %}

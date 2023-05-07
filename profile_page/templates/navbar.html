@@ -1,18 +1,33 @@
 <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container">
+    <div class="container">  
         <a id="logo" class="navbar-brand" href="{% url 'yunho:main_index' %}">yunho</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse d-flex align-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav mx-5 mb-2 mb-lg-0 navs">
-                    <li class="nav-item"><a class="nav-link active text-white" href="{% url 'yunho:main_index' %}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active text-white" href="{% url 'yunho:profile_index' %}">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link active text-white" href="#!">Interest</a></li>
+                <li class="nav-item"><a class="nav-link active text-white" href="{% url 'yunho:main_index' %}">Home</a></li>
+                <li class="nav-item"><a class="nav-link active text-white" href="{% url 'yunho:profile_index' %}">Profile</a></li>
+                <li class="nav-item"><a class="nav-link active text-white" href="{% url 'yunho:document_index' %}">Document</a></li> 
             </ul>
+            {% if not username %}
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navs">
                 <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">
                     &nbsp;&nbsp;Login&nbsp;&nbsp;
                 </button>
             </ul>
+            {% else %}
+            
+            <p class="py-0 my-0 ms-auto text-white">
+                {{ username }}님 환영합니다 &nbsp;
+            </p>
+            <ul class="navbar-nav mb-2 mb-lg-0 navs">
+                
+                <a href = "{% url 'yunho:sign_out' %}">
+                <button type="button" class="btn btn-outline-light">
+                    &nbsp;&nbsp;Logout&nbsp;&nbsp;
+                </button>
+                </a>
+            </ul>
+            {% endif %}
         </div>
     </div>
 </nav>

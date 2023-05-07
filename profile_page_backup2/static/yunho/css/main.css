@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&display=swap');
+
+
+.bg {
+    background-image : linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ), url('../images/dku_image.jpeg');
+    background-size : cover;
+    background-position : center center;
+    width : 100%;
+    height : 100%;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #d1d1d1;
+}
+
+.icon-github {
+    font-size: 20px;
+}
+
+#social-icon {
+    font-size: 25px;
+}
+
+.underline-none {
+    text-decoration: none;
+}
+
+
+
+
+

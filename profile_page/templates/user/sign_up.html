@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'user/css/sign_up.css' %}?ver={% now 'U' %}">
+{% endblock %}
+{% block javascript %}
+<link rel="stylesheet" type="text/css" href="{% static 'user/javascript/sign_up.js' %}?ver={% now 'U' %}">
+{% endblock %}
+{% block content %}
+<br><br>
+<div class="container d-flex mt-5 justify-content-center">
+    <div class="signup"> 
+        <div class="card shadow-lg mb-3" style="border: 4px double #dcdcdc">
+            <div class="card shadow-lg mb-3" style="border: 4px double #dcdcdc">
+                <form action="{% url 'yunho:sign_up' %}" method="post" onsubmit="return validateForm()" name="signupForm">
+                    {% csrf_token %}
+                    <p class="title mt-3">
+                        SignUp 
+                    </p>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1" class="select">Job</label>
+                        <select class="form-control mt-2" name="job">
+                            <option>professor(default)</option>
+                            <option>teaching assistant</option>
+                            <option>student</option>
+                            <option>office worker</option>
+                            <option>etc</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group mt-3">
+                        <label for="exampleFormControlSelect2" class="select">gender</label>
+                        <select class="form-control mt-2" name="gender">
+                            <option>male(default)</option>
+                            <option>female</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-secondary mb-2">Submit</button>
+                </form>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+<!-- <div class="row d-flex justify-content-center align-items-center">
+        <div class="card shadow-lg mb-3" style="border: 4px double #dcdcdc">
+            <div class="col-md-9 content-color">
+            <div class="card-body">
+                <form action="https://opensource-egynk.run.goorm.site/yunho/sign_up/" method="post">
+                    {% csrf_token %}
+                    <input class="text" type="text" name="job" placeholder="직업(교수 | 학생)" pattern="(교수|학생)" required=""><br>
+                    <input class="text" type="text" name="gender" placeholder="성별(ex:남성/여성)" pattern="(남성|여성)" required="">    
+                </form>
+            </div>
+        </div>
+    </div> -->

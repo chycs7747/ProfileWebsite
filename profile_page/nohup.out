@@ -1,0 +1,465 @@
+Watching for file changes with StatReloader
+[05/May/2023 16:43:01] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:43:02] "GET /static/yunho/css/bootstrap.min.css?ver=1683272581 HTTP/1.1" 200 194901
+[05/May/2023 16:43:02] "GET /static/yunho/css/profile.css?ver=1683272581 HTTP/1.1" 200 588
+[05/May/2023 16:43:03] "GET /static/css/base.css?ver=1683272581 HTTP/1.1" 200 843
+[05/May/2023 16:43:06] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:43:07] "GET /static/yunho/css/bootstrap.min.css?ver=1683272586 HTTP/1.1" 200 194901
+[05/May/2023 16:43:07] "GET /static/yunho/css/main.css?ver=1683272586 HTTP/1.1" 200 605
+[05/May/2023 16:43:08] "GET /static/css/base.css?ver=1683272586 HTTP/1.1" 200 843
+Watching for file changes with StatReloader
+[05/May/2023 16:46:57] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:46:57] "GET /static/css/base.css?ver=1683272817 HTTP/1.1" 200 843
+[05/May/2023 16:46:57] "GET /static/yunho/css/main.css?ver=1683272817 HTTP/1.1" 200 605
+[05/May/2023 16:46:57] "GET /static/yunho/css/bootstrap.min.css?ver=1683272817 HTTP/1.1" 200 194901
+[05/May/2023 16:49:23] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:49:27] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:49:27] "GET /static/yunho/css/main.css?ver=1683272967 HTTP/1.1" 200 605
+[05/May/2023 16:49:27] "GET /static/css/base.css?ver=1683272967 HTTP/1.1" 200 843
+[05/May/2023 16:49:27] "GET /static/yunho/css/bootstrap.min.css?ver=1683272967 HTTP/1.1" 200 194901
+[05/May/2023 16:49:27] "GET /static/yunho/images/google.jpg HTTP/1.1" 200 1676
+[05/May/2023 16:49:27] "GET /static/yunho/images/instagram.jpg HTTP/1.1" 200 1915
+[05/May/2023 16:49:27] "GET /static/yunho/images/logo.png HTTP/1.1" 200 67955
+[05/May/2023 16:49:27] "GET /static/yunho/images/notion_icon_small.png HTTP/1.1" 200 908
+[05/May/2023 16:49:28] "GET /static/yunho/images/dku_image.jpeg HTTP/1.1" 200 1971666
+Not Found: /favicon.ico
+[05/May/2023 16:49:28] "GET /favicon.ico HTTP/1.1" 404 2093
+[05/May/2023 16:49:33] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:49:33] "GET /static/yunho/css/profile.css?ver=1683272973 HTTP/1.1" 200 588
+[05/May/2023 16:49:33] "GET /static/css/base.css?ver=1683272973 HTTP/1.1" 200 843
+[05/May/2023 16:49:33] "GET /static/yunho/css/bootstrap.min.css?ver=1683272973 HTTP/1.1" 200 194901
+[05/May/2023 16:49:33] "GET /static/yunho/images/cyhyg_bigger.jpg HTTP/1.1" 200 24290
+[05/May/2023 16:49:33] "GET /static/yunho/images/external_link_icon.jpg HTTP/1.1" 200 3186
+[05/May/2023 16:49:33] "GET /static/yunho/images/notion_icon_big.jpg HTTP/1.1" 200 13699
+[05/May/2023 16:49:33] "GET /static/yunho/images/github_icon.jpg HTTP/1.1" 200 36323
+[05/May/2023 16:49:36] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:49:36] "GET /static/yunho/css/bootstrap.min.css?ver=1683272976 HTTP/1.1" 200 194901
+[05/May/2023 16:49:36] "GET /static/yunho/css/main.css?ver=1683272976 HTTP/1.1" 200 605
+[05/May/2023 16:49:36] "GET /static/css/base.css?ver=1683272976 HTTP/1.1" 200 843
+[05/May/2023 16:49:37] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:49:37] "GET /static/yunho/css/bootstrap.min.css?ver=1683272977 HTTP/1.1" 200 194901
+[05/May/2023 16:49:37] "GET /static/yunho/css/profile.css?ver=1683272977 HTTP/1.1" 200 588
+[05/May/2023 16:49:37] "GET /static/css/base.css?ver=1683272977 HTTP/1.1" 200 843
+[05/May/2023 16:49:56] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:49:56] "GET /static/css/base.css?ver=1683272996 HTTP/1.1" 200 843
+[05/May/2023 16:49:56] "GET /static/yunho/css/bootstrap.min.css?ver=1683272996 HTTP/1.1" 200 194901
+[05/May/2023 16:49:56] "GET /static/yunho/css/profile.css?ver=1683272996 HTTP/1.1" 200 588
+[05/May/2023 16:50:01] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:50:01] "GET /static/css/base.css?ver=1683273001 HTTP/1.1" 200 843
+[05/May/2023 16:50:01] "GET /static/yunho/css/bootstrap.min.css?ver=1683273001 HTTP/1.1" 200 194901
+[05/May/2023 16:50:01] "GET /static/yunho/css/profile.css?ver=1683273001 HTTP/1.1" 200 588
+[05/May/2023 16:50:02] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:50:03] "GET /static/yunho/css/main.css?ver=1683273002 HTTP/1.1" 200 605
+[05/May/2023 16:50:04] "GET /static/css/base.css?ver=1683273002 HTTP/1.1" 200 843
+[05/May/2023 16:50:05] "GET /static/yunho/css/bootstrap.min.css?ver=1683273002 HTTP/1.1" 200 194901
+[05/May/2023 16:50:42] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:50:43] "GET /static/yunho/css/bootstrap.min.css?ver=1683273042 HTTP/1.1" 200 194901
+[05/May/2023 16:50:43] "GET /static/css/base.css?ver=1683273042 HTTP/1.1" 200 843
+[05/May/2023 16:50:43] "GET /static/yunho/css/main.css?ver=1683273042 HTTP/1.1" 200 605
+Not Found: /favicon.ico
+[05/May/2023 16:50:47] "GET /favicon.ico HTTP/1.1" 404 2093
+[05/May/2023 16:50:50] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:50:51] "GET /static/yunho/css/bootstrap.min.css?ver=1683273050 HTTP/1.1" 200 194901
+[05/May/2023 16:50:51] "GET /static/yunho/css/profile.css?ver=1683273050 HTTP/1.1" 200 588
+[05/May/2023 16:50:51] "GET /static/css/base.css?ver=1683273050 HTTP/1.1" 200 843
+[05/May/2023 16:50:53] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:50:53] "GET /static/yunho/css/bootstrap.min.css?ver=1683273053 HTTP/1.1" 200 194901
+[05/May/2023 16:50:53] "GET /static/yunho/css/main.css?ver=1683273053 HTTP/1.1" 200 605
+[05/May/2023 16:50:53] "GET /static/css/base.css?ver=1683273053 HTTP/1.1" 200 843
+[05/May/2023 16:50:56] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:50:56] "GET /static/yunho/css/profile.css?ver=1683273056 HTTP/1.1" 200 588
+[05/May/2023 16:50:56] "GET /static/css/base.css?ver=1683273056 HTTP/1.1" 200 843
+[05/May/2023 16:50:56] "GET /static/yunho/css/bootstrap.min.css?ver=1683273056 HTTP/1.1" 200 194901
+[05/May/2023 16:50:57] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:50:58] "GET /static/yunho/css/bootstrap.min.css?ver=1683273057 HTTP/1.1" 200 194901
+[05/May/2023 16:50:58] "GET /static/yunho/css/profile.css?ver=1683273057 HTTP/1.1" 200 588
+[05/May/2023 16:50:58] "GET /static/css/base.css?ver=1683273057 HTTP/1.1" 200 843
+[05/May/2023 16:50:58] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:50:58] "GET /static/yunho/css/bootstrap.min.css?ver=1683273058 HTTP/1.1" 200 194901
+[05/May/2023 16:50:58] "GET /static/css/base.css?ver=1683273058 HTTP/1.1" 200 843
+[05/May/2023 16:50:58] "GET /static/yunho/css/main.css?ver=1683273058 HTTP/1.1" 200 605
+[05/May/2023 16:51:21] "GET /yunho/login/google/ HTTP/1.1" 302 0
+[05/May/2023 16:51:29] "GET /yunho/login/google/callback?code=4%2F0AbUR2VPT4E-D23PXnm0KzEPXaGgOG7ltC1CJshVgc_73aFsaXYhM9xUZOXFqJZ1YEcgQ4Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1" 302 0
+[05/May/2023 16:51:29] "GET /yunho/sign_in/ HTTP/1.1" 302 0
+[05/May/2023 16:51:30] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:51:30] "GET /static/css/base.css?ver=1683273089 HTTP/1.1" 200 843
+[05/May/2023 16:51:30] "GET /static/yunho/css/main.css?ver=1683273089 HTTP/1.1" 200 605
+[05/May/2023 16:51:30] "GET /static/yunho/css/bootstrap.min.css?ver=1683273089 HTTP/1.1" 200 194901
+[05/May/2023 16:51:40] "GET /yunho/profile/ HTTP/1.1" 200 8486
+[05/May/2023 16:51:40] "GET /static/css/base.css?ver=1683273100 HTTP/1.1" 200 843
+[05/May/2023 16:51:41] "GET /static/yunho/css/bootstrap.min.css?ver=1683273100 HTTP/1.1" 200 194901
+[05/May/2023 16:51:41] "GET /static/yunho/css/profile.css?ver=1683273100 HTTP/1.1" 200 588
+[05/May/2023 16:51:43] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:51:43] "GET /static/yunho/css/main.css?ver=1683273103 HTTP/1.1" 200 605
+[05/May/2023 16:51:43] "GET /static/css/base.css?ver=1683273103 HTTP/1.1" 200 843
+[05/May/2023 16:51:43] "GET /static/yunho/css/bootstrap.min.css?ver=1683273103 HTTP/1.1" 200 194901
+[05/May/2023 16:52:47] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:52:47] "GET /static/yunho/css/profile.css?ver=1683273167 HTTP/1.1" 200 588
+[05/May/2023 16:52:47] "GET /static/yunho/css/bootstrap.min.css?ver=1683273167 HTTP/1.1" 200 194901
+[05/May/2023 16:52:47] "GET /static/css/base.css?ver=1683273167 HTTP/1.1" 200 843
+[05/May/2023 16:52:49] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:52:49] "GET /static/yunho/css/bootstrap.min.css?ver=1683273169 HTTP/1.1" 200 194901
+[05/May/2023 16:52:49] "GET /static/css/base.css?ver=1683273169 HTTP/1.1" 200 843
+[05/May/2023 16:52:49] "GET /static/yunho/css/main.css?ver=1683273169 HTTP/1.1" 200 605
+[05/May/2023 16:53:25] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:25] "GET /static/yunho/css/profile.css?ver=1683273205 HTTP/1.1" 200 588
+[05/May/2023 16:53:25] "GET /static/css/base.css?ver=1683273205 HTTP/1.1" 200 843
+[05/May/2023 16:53:25] "GET /static/yunho/css/bootstrap.min.css?ver=1683273205 HTTP/1.1" 200 194901
+[05/May/2023 16:53:54] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:53:54] "GET /static/css/base.css?ver=1683273234 HTTP/1.1" 200 843
+[05/May/2023 16:53:54] "GET /static/yunho/css/main.css?ver=1683273234 HTTP/1.1" 200 605
+[05/May/2023 16:53:54] "GET /static/yunho/css/bootstrap.min.css?ver=1683273234 HTTP/1.1" 200 194901
+[05/May/2023 16:53:55] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:55] "GET /static/yunho/css/bootstrap.min.css?ver=1683273235 HTTP/1.1" 200 194901
+[05/May/2023 16:53:55] "GET /static/css/base.css?ver=1683273235 HTTP/1.1" 200 843
+[05/May/2023 16:53:55] "GET /static/yunho/css/profile.css?ver=1683273235 HTTP/1.1" 200 588
+[05/May/2023 16:53:56] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:53:56] "GET /static/yunho/css/main.css?ver=1683273236 HTTP/1.1" 200 605
+[05/May/2023 16:53:56] "GET /static/yunho/css/bootstrap.min.css?ver=1683273236 HTTP/1.1" 200 194901
+[05/May/2023 16:53:56] "GET /static/css/base.css?ver=1683273236 HTTP/1.1" 200 843
+[05/May/2023 16:53:56] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:56] "GET /static/yunho/css/profile.css?ver=1683273236 HTTP/1.1" 200 588
+[05/May/2023 16:53:57] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:57] "GET /static/yunho/css/profile.css?ver=1683273237 HTTP/1.1" 200 588
+[05/May/2023 16:53:57] "GET /static/css/base.css?ver=1683273237 HTTP/1.1" 200 843
+[05/May/2023 16:53:57] "GET /static/yunho/css/bootstrap.min.css?ver=1683273237 HTTP/1.1" 200 194901
+[05/May/2023 16:53:57] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:53:57] "GET /static/yunho/css/main.css?ver=1683273237 HTTP/1.1" 200 605
+[05/May/2023 16:53:58] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:58] "GET /static/yunho/css/profile.css?ver=1683273238 HTTP/1.1" 200 588
+[05/May/2023 16:53:58] "GET /static/css/base.css?ver=1683273238 HTTP/1.1" 200 843
+[05/May/2023 16:53:58] "GET /static/yunho/css/bootstrap.min.css?ver=1683273238 HTTP/1.1" 200 194901
+[05/May/2023 16:53:59] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:53:59] "GET /static/yunho/css/bootstrap.min.css?ver=1683273239 HTTP/1.1" 200 194901
+[05/May/2023 16:53:59] "GET /static/css/base.css?ver=1683273239 HTTP/1.1" 200 843
+[05/May/2023 16:53:59] "GET /static/yunho/css/profile.css?ver=1683273239 HTTP/1.1" 200 588
+[05/May/2023 16:53:59] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:53:59] "GET /static/yunho/css/main.css?ver=1683273239 HTTP/1.1" 200 605
+[05/May/2023 16:54:03] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:54:03] "GET /static/css/base.css?ver=1683273243 HTTP/1.1" 200 843
+[05/May/2023 16:54:03] "GET /static/yunho/css/bootstrap.min.css?ver=1683273243 HTTP/1.1" 200 194901
+[05/May/2023 16:54:03] "GET /static/yunho/css/main.css?ver=1683273243 HTTP/1.1" 200 605
+[05/May/2023 16:54:10] "GET /yunho/login/google/ HTTP/1.1" 302 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 05, 2023 - 16:46:44
+Django version 2.2.4, using settings 'config.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+https://opensource-egynk.run.goorm.site/yunho/login/google/callback
+token response {'access_token': 'ya29.a0AWY7Ckl-AOigiqO12haOV3iqrLFyYZvbSxDa458q5eRG4JGTCNV31bl_RB2avM65h1ksQVq_w4LN5z3jTy_njVGqEi5hWlutELyyoysaaIGoaLKju9EhMQqjihX7MZeiOjuu9fv9HVrkf7aIVhTBWnf7DCbJSgaCgYKAYkSARESFQG1tDrpPlB4Gslh5jBDARw7IVWKFQ0165', 'expires_in': 3599, 'scope': 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid', 'token_type': 'Bearer', 'id_token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImM5YWZkYTM2ODJlYmYwOWViMzA1NWMxYzRiZDM5Yjc1MWZiZjgxOTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDA4MTA4MDg3NDQwLWs5MWFsN3JzdnB2b2VuamI4dnQ1cGpxa3VrZTlrOXU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTAwODEwODA4NzQ0MC1rOTFhbDdyc3Zwdm9lbmpiOHZ0NXBqcWt1a2U5azl1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMzI3ODc0MjM5NDQxNDkxNTA3MSIsImVtYWlsIjoiY2h5Y3M3NzQ3QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiUE1Rd1NqNVd0YnBkR1UzcEEwRjZzUSIsIm5hbWUiOiLstZzsnKTtmLgiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4WXhZVG1HQmJTbmw5TXZjQ3RzQWpJS09keDdHeHR1WkFOMzlaT1Q9czk2LWMiLCJnaXZlbl9uYW1lIjoi7Jyk7Zi4IiwiZmFtaWx5X25hbWUiOiLstZwiLCJsb2NhbGUiOiJrbyIsImlhdCI6MTY4MzI3MzA4OSwiZXhwIjoxNjgzMjc2Njg5fQ.FisaD5JEE4Xsbs7azfEMEHX8pRQCyPojnLpKcHBwZsjQzHSf5EcxvXli2QOREAyJh2nzuv6XyWRpnDDTSceYLSuglE7ArSbd9ONnrTmfccMWrLtObsmAxU1z6LJ2ZB4dfZ_zf8U6zPc4f4D0GIrflnV0cga3oM7Q22dO1KLwECOqkBUpVxnU_Lr6lexCkTrpAS6ck44zMckK7rajclzHqfW_C0id_DTJ_EUUqH0YG6qKxkbRTxHtgVpuGWiGKI3Bwm3FRckdgKM9csnEECY0cyv2aAhe5WpnRz-8DsSv6QNTQVi0uSHW7L3P3urVPvyA-YfBFAp1j-p6ZNCNfGzTPA'}
+구글컬백함수안 :  ya29.a0AWY7Ckl-AOigiqO12haOV3iqrLFyYZvbSxDa458q5eRG4JGTCNV31bl_RB2avM65h1ksQVq_w4LN5z3jTy_njVGqEi5hWlutELyyoysaaIGoaLKju9EhMQqjihX7MZeiOjuu9fv9HVrkf7aIVhTBWnf7DCbJSgaCgYKAYkSARESFQG1tDrpPlB4Gslh5jBDARw7IVWKFQ0165
+체크: check
+ya29.a0AWY7Ckl-AOigiqO12haOV3iqrLFyYZvbSxDa458q5eRG4JGTCNV31bl_RB2avM65h1ksQVq_w4LN5z3jTy_njVGqEi5hWlutELyyoysaaIGoaLKju9EhMQqjihX7MZeiOjuu9fv9HVrkf7aIVhTBWnf7DCbJSgaCgYKAYkSARESFQG1tDrpPlB4Gslh5jBDARw7IVWKFQ0165
+None
+중복로그인이 존재하지 않았습니다.
+chycs7747@gmail.com - 사용자 존재
+유저명: 최윤호
+유저이름: 최윤호 유저비번: !EcDU8ll7kogCd7zQvatyrbitAlhVjZm4XsoDGxYk
+chycs7747@gmail.com
+존재하는 세션: <QuerySet [<Session: de3koghupygqu6kgy2k9mii0cdt815hu>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:51:29
+존재하는 세션: <QuerySet [<Session: de3koghupygqu6kgy2k9mii0cdt815hu>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:51:29
+존재하는 세션: <QuerySet [<Session: de3koghupygqu6kgy2k9mii0cdt815hu>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:51:29
+존재하는 세션: <QuerySet [<Session: de3koghupygqu6kgy2k9mii0cdt815hu>]>
+만료된 세션 존재
+만료된 세션들: <QuerySet [<Session: de3koghupygqu6kgy2k9mii0cdt815hu>]>
+세션 삭제 완료
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+https://opensource-egynk.run.goorm.site/yunho/login/google/callback
+token response {'access_token': 'ya29.a0AWY7Ckl6T9xseh17EPRIyIEQ2pgPbkLNev2X7MpKWurMHDiEuad2NQeAZM05PENdktFzPMJDqs7k9eT4DEWs-aUwamK49JN-S0K1lqJ1HWZCSVmGKV9IH_GKpdfQBZyJrsKdPg4HyDfZShMqw9uvYaUjGYfTOAaCgYKAT0SARESFQG1tDrpijxsCgzwyB6wGzoBWSab0A0165', 'expires_in': 3598, 'scope': 'openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email', 'token_type': 'Bearer', 'id_token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImM5YWZkYTM2ODJlYmYwOWViMzA1NWMxYzRiZDM5Yjc1MWZiZjgxOTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDA4MTA4MDg3NDQwLWs5MWFsN3JzdnB2b2VuamI4dnQ1cGpxa3VrZTlrOXU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTAwODEwODA4NzQ0MC1rOTFhbDdyc3Zwdm9lbmpiOHZ0NXBqcWt1a2U5azl1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMzI3ODc0MjM5NDQxNDkxNTA3MSIsImVtYWlsIjoiY2h5Y3M3NzQ3QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoibXg3WVBFWkRma2drLTBUUEcwUjBBUSIsIm5hbWUiOiLstZzsnKTtmLgiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4WXhZVG1HQmJTbmw5TXZjQ3RzQWpJS09keDdHeHR1WkFOMzlaT1Q9czk2LWMiLCJnaXZlbl9uYW1lIjoi7Jyk7Zi4IiwiZmFtaWx5X25hbWUiOiLstZwiLCJsb2NhbGUiOiJrbyIsImlhdCI6MTY4MzI3MzI1NCwiZXhwIjoxNjgzMjc2ODU0fQ.LUplhLePmFo-4sG6K-ZlfjyWt7y7Q0qxYIx8PMmJ1Joc3K11sJukyMk4jQZKc9fwb1JzoCWVy13irRf_xaOnG-pAwymfKmjtfoR9KqwrZxeClTUO2d7YYrwg96Dx59U1Ddn1uBH2SYqRI_XzKNH4TdXQskFS3BiNgayss2DA0d0HUbhXQJIqs2_T1q-Suvfr2nXZvmPVKGLkjLSdnAQWiMqk1_Hrh3PnFHzUbdGAPPGfhb0PZcp70YO0uKiIT6hEXrUMd08ug-iugSyk57-4BYBg7TyFxYio7ZWWAno1VtIQw-gGkKKWm66uPVAHk2uadicHGjWgfVaaTkPDRse5kA'}[05/May/2023 16:54:14] "GET /yunho/login/google/callback?code=4%2F0AbUR2VNIWj_k9alCXoCDRt8V8uPLsDLD873nyTDubCabhBOoWLZ2OkWN6tJZSfUvSWIQaA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 302 0
+[05/May/2023 16:54:15] "GET /yunho/sign_in/ HTTP/1.1" 302 0
+[05/May/2023 16:54:16] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:54:16] "GET /static/css/base.css?ver=1683273255 HTTP/1.1" 200 843
+[05/May/2023 16:54:16] "GET /static/yunho/css/bootstrap.min.css?ver=1683273255 HTTP/1.1" 200 194901
+[05/May/2023 16:54:16] "GET /static/yunho/css/main.css?ver=1683273255 HTTP/1.1" 200 605
+[05/May/2023 16:54:18] "GET /yunho/login/google/ HTTP/1.1" 302 0
+[05/May/2023 16:54:20] "GET /yunho/login/google/callback?code=4%2F0AbUR2VNEpgvIJjvvds5iCwiLHN6PodqEHYTFWJP7h4ZZoolPplwf0GPuJ7kzMaEqwnNNpQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 302 0
+[05/May/2023 16:54:20] "GET /yunho/sign_in HTTP/1.1" 301 0
+[05/May/2023 16:54:21] "GET /yunho/sign_in/ HTTP/1.1" 302 0
+[05/May/2023 16:54:21] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:54:21] "GET /static/yunho/css/bootstrap.min.css?ver=1683273261 HTTP/1.1" 200 194901
+[05/May/2023 16:54:21] "GET /static/yunho/css/main.css?ver=1683273261 HTTP/1.1" 200 605
+[05/May/2023 16:54:21] "GET /static/css/base.css?ver=1683273261 HTTP/1.1" 200 843
+[05/May/2023 16:54:31] "GET /yunho/profile/ HTTP/1.1" 200 8486
+[05/May/2023 16:54:31] "GET /static/yunho/css/profile.css?ver=1683273271 HTTP/1.1" 200 588
+[05/May/2023 16:54:31] "GET /static/yunho/css/bootstrap.min.css?ver=1683273271 HTTP/1.1" 200 194901
+[05/May/2023 16:54:31] "GET /static/css/base.css?ver=1683273271 HTTP/1.1" 200 843
+[05/May/2023 16:54:31] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:54:31] "GET /static/yunho/css/main.css?ver=1683273271 HTTP/1.1" 200 605
+[05/May/2023 16:54:32] "GET /yunho/profile/ HTTP/1.1" 200 8486
+[05/May/2023 16:54:32] "GET /static/css/base.css?ver=1683273272 HTTP/1.1" 200 843
+[05/May/2023 16:54:32] "GET /static/yunho/css/bootstrap.min.css?ver=1683273272 HTTP/1.1" 200 194901
+[05/May/2023 16:54:32] "GET /static/yunho/css/profile.css?ver=1683273272 HTTP/1.1" 200 588
+[05/May/2023 16:54:34] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:54:34] "GET /static/yunho/css/bootstrap.min.css?ver=1683273274 HTTP/1.1" 200 194901
+[05/May/2023 16:54:34] "GET /static/css/base.css?ver=1683273274 HTTP/1.1" 200 843
+[05/May/2023 16:54:34] "GET /static/yunho/css/main.css?ver=1683273274 HTTP/1.1" 200 605
+[05/May/2023 16:55:06] "GET /yunho/profile/ HTTP/1.1" 200 8486
+[05/May/2023 16:55:07] "GET /static/css/base.css?ver=1683273306 HTTP/1.1" 200 843
+[05/May/2023 16:55:07] "GET /static/yunho/css/bootstrap.min.css?ver=1683273306 HTTP/1.1" 200 194901
+[05/May/2023 16:55:07] "GET /static/yunho/css/profile.css?ver=1683273306 HTTP/1.1" 200 588
+[05/May/2023 16:55:09] "GET /yunho/ HTTP/1.1" 200 5575
+[05/May/2023 16:55:10] "GET /static/yunho/css/bootstrap.min.css?ver=1683273309 HTTP/1.1" 200 194901
+[05/May/2023 16:55:10] "GET /static/css/base.css?ver=1683273309 HTTP/1.1" 200 843
+[05/May/2023 16:55:10] "GET /static/yunho/css/main.css?ver=1683273309 HTTP/1.1" 200 605
+[05/May/2023 16:57:16] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:57:16] "GET /static/yunho/css/profile.css?ver=1683273436 HTTP/1.1" 200 588
+[05/May/2023 16:57:16] "GET /static/css/base.css?ver=1683273436 HTTP/1.1" 200 843
+[05/May/2023 16:57:16] "GET /static/yunho/css/bootstrap.min.css?ver=1683273436 HTTP/1.1" 200 194901
+[05/May/2023 16:57:17] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:57:17] "GET /static/yunho/css/main.css?ver=1683273437 HTTP/1.1" 200 605
+[05/May/2023 16:57:17] "GET /static/css/base.css?ver=1683273437 HTTP/1.1" 200 843
+[05/May/2023 16:57:17] "GET /static/yunho/css/bootstrap.min.css?ver=1683273437 HTTP/1.1" 200 194901
+[05/May/2023 16:57:25] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:57:25] "GET /static/css/base.css?ver=1683273445 HTTP/1.1" 200 843
+[05/May/2023 16:57:25] "GET /static/yunho/css/profile.css?ver=1683273445 HTTP/1.1" 200 588
+[05/May/2023 16:57:25] "GET /static/yunho/css/bootstrap.min.css?ver=1683273445 HTTP/1.1" 200 194901
+[05/May/2023 16:57:27] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:57:27] "GET /static/yunho/css/main.css?ver=1683273447 HTTP/1.1" 200 605
+[05/May/2023 16:57:27] "GET /static/css/base.css?ver=1683273447 HTTP/1.1" 200 843
+[05/May/2023 16:57:27] "GET /static/yunho/css/bootstrap.min.css?ver=1683273447 HTTP/1.1" 200 194901
+[05/May/2023 16:57:28] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:57:28] "GET /static/css/base.css?ver=1683273448 HTTP/1.1" 200 843
+[05/May/2023 16:57:28] "GET /static/yunho/css/profile.css?ver=1683273448 HTTP/1.1" 200 588
+[05/May/2023 16:57:28] "GET /static/yunho/css/bootstrap.min.css?ver=1683273448 HTTP/1.1" 200 194901
+[05/May/2023 16:57:37] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 16:57:37] "GET /static/yunho/css/profile.css?ver=1683273457 HTTP/1.1" 200 588
+[05/May/2023 16:57:37] "GET /static/yunho/css/bootstrap.min.css?ver=1683273457 HTTP/1.1" 200 194901
+[05/May/2023 16:57:37] "GET /static/css/base.css?ver=1683273457 HTTP/1.1" 200 843
+[05/May/2023 16:57:38] "GET /yunho/ HTTP/1.1" 200 5379
+[05/May/2023 16:57:38] "GET /static/css/base.css?ver=1683273458 HTTP/1.1" 200 843
+[05/May/2023 16:57:38] "GET /static/yunho/css/main.css?ver=1683273458 HTTP/1.1" 200 605
+[05/May/2023 16:57:38] "GET /static/yunho/css/bootstrap.min.css?ver=1683273458 HTTP/1.1" 200 194901
+[05/May/2023 17:01:09] "GET /yunho/profile/ HTTP/1.1" 200 8305
+[05/May/2023 17:01:10] "GET /static/yunho/css/profile.css?ver=1683273669 HTTP/1.1" 200 588
+[05/May/2023 17:01:10] "GET /static/css/base.css?ver=1683273669 HTTP/1.1" 200 843
+[05/May/2023 17:01:10] "GET /static/yunho/css/bootstrap.min.css?ver=1683273669 HTTP/1.1" 200 194901
+[05/May/2023 17:01:46] "GET /yunho/login/github/ HTTP/1.1" 302 0
+/workspace/OpenSource/profile_page/github_oauth/views/login_views.py changed, reloading.
+
+구글컬백함수안 :  ya29.a0AWY7Ckl6T9xseh17EPRIyIEQ2pgPbkLNev2X7MpKWurMHDiEuad2NQeAZM05PENdktFzPMJDqs7k9eT4DEWs-aUwamK49JN-S0K1lqJ1HWZCSVmGKV9IH_GKpdfQBZyJrsKdPg4HyDfZShMqw9uvYaUjGYfTOAaCgYKAT0SARESFQG1tDrpijxsCgzwyB6wGzoBWSab0A0165
+체크: check
+ya29.a0AWY7Ckl6T9xseh17EPRIyIEQ2pgPbkLNev2X7MpKWurMHDiEuad2NQeAZM05PENdktFzPMJDqs7k9eT4DEWs-aUwamK49JN-S0K1lqJ1HWZCSVmGKV9IH_GKpdfQBZyJrsKdPg4HyDfZShMqw9uvYaUjGYfTOAaCgYKAT0SARESFQG1tDrpijxsCgzwyB6wGzoBWSab0A0165
+None
+중복로그인이 존재하지 않았습니다.
+chycs7747@gmail.com - 사용자 존재
+유저명: 최윤호
+유저이름: 최윤호 유저비번: !EcDU8ll7kogCd7zQvatyrbitAlhVjZm4XsoDGxYk
+chycs7747@gmail.com
+존재하는 세션: <QuerySet [<Session: csg1pj0uci3vxlf7nkx3n6to86st5g83>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:15
+https://opensource-egynk.run.goorm.site/yunho/login/google/callback
+token response {'access_token': 'ya29.a0AWY7CknL65dKD6rah4UAfN6UmZVeZUGGCqh8tO0maFn2htwOszUW6ZV6GoO006WwZvjXQdE-AXLOhliuSypdp_a8w_klGmv01YAzPft6vAt1047Xz_eWh3g2idaeYM43RMPW6YaYQO-riLS9K-Kn7eQzrFICcQaCgYKARkSARESFQG1tDrpggutJiEU7QcIySAaPcxuaQ0165', 'expires_in': 3599, 'scope': 'openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email', 'token_type': 'Bearer', 'id_token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImM5YWZkYTM2ODJlYmYwOWViMzA1NWMxYzRiZDM5Yjc1MWZiZjgxOTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDA4MTA4MDg3NDQwLWs5MWFsN3JzdnB2b2VuamI4dnQ1cGpxa3VrZTlrOXU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTAwODEwODA4NzQ0MC1rOTFhbDdyc3Zwdm9lbmpiOHZ0NXBqcWt1a2U5azl1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMzI3ODc0MjM5NDQxNDkxNTA3MSIsImVtYWlsIjoiY2h5Y3M3NzQ3QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiQTRwNTBYSF9jMFVjNDV4dHk4emstdyIsIm5hbWUiOiLstZzsnKTtmLgiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4WXhZVG1HQmJTbmw5TXZjQ3RzQWpJS09keDdHeHR1WkFOMzlaT1Q9czk2LWMiLCJnaXZlbl9uYW1lIjoi7Jyk7Zi4IiwiZmFtaWx5X25hbWUiOiLstZwiLCJsb2NhbGUiOiJrbyIsImlhdCI6MTY4MzI3MzI2MCwiZXhwIjoxNjgzMjc2ODYwfQ.SPNww4cebUI2rjqLNYCUXfw5Y3gfD0sC7MLKizXjTEIWVoeoKf6M29Mno9zcbaBwjJtx49U9ze2umP-rSFhzsNmHquduqaKw53KgrFVzvGTfhdaCTIjKJI1LKV2sDX1dTWDjnaEh5vZlmBZ3gpa17R6EMQ3sRlIQKwRRHVs4kh4T_QCqXR3Bk9ioVpvFXnYd_grekP7JOoncCnvVLpg2-fJnT0n6nsLET5rjaSnKUQNr0Gl6OGkAOL8Kec3EgN_sr03fP6ydrsxyMeOv2-aGLDF7bknK2TMhJMBkE8cBSyupWGq9uBWnT2ahzfm6Qn5iaRz7gH6LMUVqE9tirR5tuw'}
+구글컬백함수안 :  ya29.a0AWY7CknL65dKD6rah4UAfN6UmZVeZUGGCqh8tO0maFn2htwOszUW6ZV6GoO006WwZvjXQdE-AXLOhliuSypdp_a8w_klGmv01YAzPft6vAt1047Xz_eWh3g2idaeYM43RMPW6YaYQO-riLS9K-Kn7eQzrFICcQaCgYKARkSARESFQG1tDrpggutJiEU7QcIySAaPcxuaQ0165
+체크: check
+ya29.a0AWY7CknL65dKD6rah4UAfN6UmZVeZUGGCqh8tO0maFn2htwOszUW6ZV6GoO006WwZvjXQdE-AXLOhliuSypdp_a8w_klGmv01YAzPft6vAt1047Xz_eWh3g2idaeYM43RMPW6YaYQO-riLS9K-Kn7eQzrFICcQaCgYKARkSARESFQG1tDrpggutJiEU7QcIySAaPcxuaQ0165
+None
+중복 로그인 존재(이전 로그인 일자): 2023-05-05 07:54:15
+중복 세션 지우기 완료
+chycs7747@gmail.com - 사용자 존재
+유저명: 최윤호
+유저이름: 최윤호 유저비번: !EcDU8ll7kogCd7zQvatyrbitAlhVjZm4XsoDGxYk
+chycs7747@gmail.com
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+유저 모델에 접근해서 이메일 확인: chycs7747@gmail.com
+세션 생성일자: 2023-05-05 07:54:20
+존재하는 세션: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+만료된 세션 존재
+만료된 세션들: <QuerySet [<Session: 4qpblzm4116lz7zzbaz3o31nvo62ivzj>]>
+세션 삭제 완료
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+존재하는 세션: <QuerySet []>
+expired_sessions 미존재
+아직 만료된 세션이 없습니다.
+세션 만료 or 세션 미생성
+Watching for file changes with StatReloader
+/workspace/OpenSource/profile_page/user/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 05, 2023 - 17:07:30
+Django version 2.2.4, using settings 'config.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[05/May/2023 17:07:57] "GET /yunho/login/github/ HTTP/1.1" 302 0
