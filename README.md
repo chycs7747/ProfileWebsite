@@ -1,18 +1,29 @@
 # OpenSource_MidTerm_Project  
-Open Source 2023 Mid Term Project  
-Author: 최윤호 (Choi Yun Ho)
-Title: Profile Page  
-Django Version: 4.1
+#### Welcome, you can learn more about my work from this website!
+
+---
+
+#### Open Source 2023 Mid Term Project  
+Made by 최윤호 (Choi Yun Ho) 
+
+---
 
 ### Document  
-Start Date: 2023-04-25  
+
 Description: generate basic project file
 
+Stacks
+
+- Django Version: 4.1
+- OAuth 2.0 (google, github login)
+- HTML, CSS, JS, BOOTSTRAP
+
+---
 
 ### Contents  
+
 - Main page  
 - Profile page  
 - Interest page  
   
   
-## Welcome to my web site. You can learn more about my work, from this website!
