@@ -1,4 +1,4 @@
-# OpenSource_MidTerm_Project  
+# Profile Website
 #### Welcome, you can learn more about my work from this website!
 
 ---
@@ -8,15 +8,17 @@ Made by 최윤호 (Choi Yun Ho)
 
 ---
 
-### Document  
-
-Description: generate basic project file
+### Description
 
 Stacks
 
 - Django Version: 4.1
 - OAuth 2.0 (google, github login)
 - HTML, CSS, JS, BOOTSTRAP
+
+Service
+
+- Profile Web Page (**Temporary server shutdown**)
 
 ---
 
